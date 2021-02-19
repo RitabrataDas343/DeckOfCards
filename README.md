@@ -20,7 +20,7 @@ Hello, this is my first repo on Github. I have made this project on C++, where i
 
 
 
-**OWner Rights- _Archishman Das_**
+**Owner Rights- _ARCHISHMAN DAS_**
 
 **Community members are free to work and collaborate on my project.**
 
