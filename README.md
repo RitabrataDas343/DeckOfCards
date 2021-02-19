@@ -8,11 +8,11 @@ Riffle Shuffle N - Does riffle shuffle N number of times(for instance, Riffle Sh
 
 Shuffle N - Shuffles the cards N number of times. A random number of cards is taken from the bottom and this stack is put in middle of the leftout stack at any random position.
 
-Colour sort - Sorts the cards according to alphabetic order of the colour, that is, Black cards come first, then Red cards.
+Colour sort - Sorts the cards according to alphabetic order of the colours, that is, Black cards come first, then Red cards.
 
-Suit sort - Sorts the cards according to alphabetic order of the suit, that is, Clubs, then Diamonds, then Hearts and at last Spades.
+Suit sort - Sorts the cards according to alphabetic order of the suits, that is, Clubs, then Diamonds, then Hearts and at last Spades.
 
-Value sort - Sorts the cards in ascending order of their value.
+Value sort - Sorts the cards in ascending order of their values.
 
 Sort - Sorts the cards completely where black cards comes first, then red cards. In black cards, Clubs come first, then Spades. In red cards, Diamonds come first, then Hearts. And for each suit, values are sorted in ascending order.
 
