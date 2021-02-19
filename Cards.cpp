@@ -334,7 +334,7 @@ int main()
     }
     while(true)
     {
-        cout<<"Type your command. Type 'End' (without quotes) to end the program"<<endl;
+        cout<<"Type your command. Commands are case sensitive. Type End to end the program"<<endl;
         string input;
         getline(cin, input);
         if(input.find("Riffle Shuffle")!=string::npos)
