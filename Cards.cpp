@@ -337,10 +337,14 @@ int main()
     while(true)
     {
         cout<<"Type Display to display the deck" <<endl;
-        cout<<"Type Sort to sort the cards."<<endl;
         cout<<"Type Riffle Shuffle N to riffle-shuffle the deck."<<endl;
+        cout<<"Type Shuffle N to shuffle the deck."<<endl;
+         cout<<"Type Value Sort to sort the cards in the ascending order of card's value."<<endl;
+         cout<<"Type Colour Sort to sort the cards in the alphabetic order of card's colour."<<endl;
+         cout<<"Type Suit Sort to sort the cards in the alphabetic order of card's suit."<<endl;
+        cout<<"Type Sort to sort the cards."<<endl;
         cout<<"Type End to end the program."<<endl;
-        cout<<"Type your command. Commands are case sensitive. Type End to end the program"<<endl;
+        cout<<"Type your command. Commands are case sensitive."<<endl;
         string input;
         getline(cin, input);
         if(input.find("Riffle Shuffle")!=string::npos)
