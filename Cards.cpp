@@ -314,6 +314,8 @@ void total_sort(node* &head)
 
 int main()
 {
+    
+        cout<<"Hi. Welcome to Deck of Cards!!! "<<endl;
     node* head=NULL;
    
     for(int i=1;i<=13;i++)
@@ -334,6 +336,10 @@ int main()
     }
     while(true)
     {
+        cout<<"Type Display to display the deck" <<endl;
+        cout<<"Type Sort to sort the cards."<<endl;
+        cout<<"Type Riffle Shuffle N to riffle-shuffle the deck."<<endl;
+        cout<<"Type End to end the program."<<endl;
         cout<<"Type your command. Commands are case sensitive. Type End to end the program"<<endl;
         string input;
         getline(cin, input);
@@ -400,6 +406,7 @@ int main()
         }
         else if(input.find("End")!=string::npos)
         {
+            cout<<"Thank you for using my software -- Archishman Das."<<endl;
             break;
         }
         else{
