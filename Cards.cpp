@@ -9,23 +9,7 @@ class node
     string suit;
     string colour;
     node* next;
-    void display()
-    {
-        string val=to_string(value);
-        if(value==1)
-            val="A";
-        else if(value==11)
-            val="Jack";
-        else if(value==12)
-            val="Queen";
-        else if(value==13)
-            val="King";        
-
-
-
-        printf("(%s,%s,%s)\n", val.c_str(),suit.c_str(),colour.c_str());
-
-    }
+    
     node(int val,string Suit)
     {
         value=val;
@@ -61,13 +45,44 @@ void insertAtTail(node* &head,int val,string Suit)
 
 void displaydeck(node* head)
 {
-    node* temp=head;
-    while(temp!=NULL)
+   node* temp1=head;
+    node* temp2=head;
+    for(int i=0;i<4;i++)
     {
-        node n=*temp;
-        n.display();
-        temp=temp->next;
+        for(int i=0;i<13;i++)
+        {
+            cout<<"___________ ";
+        }
+        cout<<endl;
+        for(int i=0;i<13;i++) 
+        {   
+            cout<<"|"<<setw(9)<<temp1->value<<"| ";
+            temp1=temp1->next;
+        }
+        cout<<endl;
+        for(int i=0;i<13;i++)
+        {    
+            cout<<"|"<<setw(9)<<"of"<<"| ";
+        }
+        cout<<endl;    
+        for(int i=0;i<13;i++)
+        {    
+            cout<<"|"<<setw(9)<<temp2->suit<<"| ";
+            temp2=temp2->next;
+        }
+        cout<<endl;    
+        for(int i=0;i<13;i++)
+        {    
+            cout<<"|         | ";
+        }
+        cout<<endl;
+        for(int i=0;i<13;i++)
+        {    
+            cout<<"|_________| ";
+        }
+        cout<<endl;
     }
+
 
 
 }
