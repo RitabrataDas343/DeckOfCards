@@ -624,11 +624,11 @@ void bet(node* &player,node* &dealer,node* &head,int &betamount,int &curr_bal,st
                     cout<<"Stand"<<endl;
                     if(play_count==0)
                     {
-                        cout<<"Double down N(Here N is the amount to be added to bet"<<endl;
+                        cout<<"Double down N(Here N is the amount to be added to bet)"<<endl;
                         cout<<"Surrender"<<endl;
                         if(dealer->Val.compare("A")==0)
                         {
-                            cout<<"Insurance N(Here N is the amount to be put in insurance"<<endl;
+                            cout<<"Insurance N(Here N is the amount to be put in insurance)"<<endl;
                         }
                     }
                     if(player->value==player->next->value)
